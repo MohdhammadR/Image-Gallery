@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+  }
+  
+  .bg h1 {
+    padding: 10px;
+  }
+  
+  .bg {
+    background-color: black;
+  }
+  
+  .bg div {
+    display: inline-block;
+  }
+  
+  .bg .image {
+    margin: 10px;
+  }
+  
+  .bg .image img {
+    width: 420px;
+    height: 235px;
+    opacity: 60%;
+    transition: 0.3s;
+  }
+  
+  .bg .image img:hover {
+    opacity: 100%;
+    cursor: pointer;
+  }
+  
